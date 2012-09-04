@@ -26,7 +26,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/etc/vpimg:system/etc/vpimg \
   vendor/htc/ruby/proprietary/bin/akmd:system/bin/akmd \
   vendor/htc/ruby/proprietary/bin/awb_camera:system/bin/awb_camera \
-  vendor/htc/ruby/proprietary/bin/calibrator:system/bin/calibrator \
   vendor/htc/ruby/proprietary/bin/charging:system/bin/charging \
   vendor/htc/ruby/proprietary/bin/ewtzmud:system/bin/ewtzmud \
   vendor/htc/ruby/proprietary/bin/htcbatt:system/bin/htcbatt \
@@ -85,7 +84,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
   vendor/htc/ruby/proprietary/lib/hw/nfc.ruby.so:system/lib/hw/nfc.ruby.so \
   vendor/htc/ruby/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-  vendor/htc/ruby/proprietary/lib/libhtc_ril.so:system/lib/libhtc_ril.so \
   vendor/htc/ruby/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
   vendor/htc/ruby/proprietary/lib/libnv.so:system/lib/libnv.so \
   vendor/htc/ruby/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
@@ -102,3 +100,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
+
+#  vendor/htc/ruby/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
+#  vendor/htc/ruby/proprietary/lib/hw/gps.ruby.so:system/lib/hw/gps.ruby.so \
