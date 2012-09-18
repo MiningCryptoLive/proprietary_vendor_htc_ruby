@@ -49,7 +49,6 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
   vendor/htc/ruby/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
   vendor/htc/ruby/proprietary/lib/libhtc_acoustic.so:system/lib/libhtc_acoustic.so \
-  vendor/htc/ruby/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so \
   vendor/htc/ruby/proprietary/lib/libcameraface.so:system/lib/libcameraface.so \
   vendor/htc/ruby/proprietary/lib/libcamerapp.so:system/lib/libcamerapp.so \
   vendor/htc/ruby/proprietary/lib/libgemini.so:system/lib/libgemini.so \
@@ -100,6 +99,3 @@ PRODUCT_COPY_FILES += \
   vendor/htc/ruby/proprietary/lib/libmpl_jni.so:system/lib/libmpl_jni.so \
   vendor/htc/ruby/proprietary/lib/libmpl.so:system/lib/libmpl.so \
   vendor/htc/ruby/proprietary/lib/libv8.so:system/lib/libv8.so
-
-#  vendor/htc/ruby/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
-#  vendor/htc/ruby/proprietary/lib/hw/gps.ruby.so:system/lib/hw/gps.ruby.so \
